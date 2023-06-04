@@ -1,5 +1,3 @@
-#!/home/apps/anaconda3_2018/4.6.9/bin/python3
-
 ################################################################################
 #
 # Pajamas
@@ -14,7 +12,7 @@ import subprocess
 import argparse
 import json
 import os
-from tabulate import tabulate
+from pajamas.tabulate import tabulate
 
 # schema example:
 # pbsnodes -a -F json <nodeid>
@@ -263,15 +261,3 @@ def print_stats(args):
     else:
         print_node_stats(free_nodes)
 
-if __name__ == "__main__":
-    # if node_stats.json or job_stats.json exists in the current directory, load
-    # those instead of running these commands.
-
-    get_stats_from_system()
-
-    args = parse_args()
-    print(args)
-    if args.command == 'admit':
-        check_admissibility(args.resource_list)
-    elif args.command == 'stat':
-        print_stats(args)

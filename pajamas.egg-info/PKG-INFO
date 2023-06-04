@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pajamas
+Version: 0.1.0
+Summary: PBS assistant for job admission, management and statistics
+Author-email: Aniruddha Deb <cs1200869@iitd.ac.in>
+Provides-Extra: dev

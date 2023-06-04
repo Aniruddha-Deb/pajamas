@@ -1,0 +1,9 @@
+pyproject.toml
+pajamas/__main__.py
+pajamas/pajamas.py
+pajamas/tabulate.py
+pajamas.egg-info/PKG-INFO
+pajamas.egg-info/SOURCES.txt
+pajamas.egg-info/dependency_links.txt
+pajamas.egg-info/requires.txt
+pajamas.egg-info/top_level.txt

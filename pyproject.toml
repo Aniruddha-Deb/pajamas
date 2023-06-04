@@ -1,0 +1,16 @@
+[project]
+name = "pajamas"
+description = "PBS assistant for job admission, management and statistics"
+version = "0.1.0"
+authors = [
+    { name = "Aniruddha Deb", email = "cs1200869@iitd.ac.in" }
+]
+dependencies = [
+]
+
+[project.optional-dependencies]
+dev = [
+    "tox",
+    "pre-commit",
+    "bump2version"
+]
